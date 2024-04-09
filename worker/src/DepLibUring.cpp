@@ -134,7 +134,7 @@ bool DepLibUring::IsRuntimeSupported()
 
 	// liburing `sento` capabilities are supported for kernel versions greather
 	// than or equal to 6.
-	return kernelMayorLong >= 6;
+	return kernelMayorLong >= 5;
 }
 
 void DepLibUring::ClassInit()
